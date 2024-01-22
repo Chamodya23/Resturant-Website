@@ -9,7 +9,7 @@
 * Bootsrap
 
 ### Website link
- https://chamodya23.github.io/Resturant-Website/
+https://chamodya23.github.io/Music-Player/
 
 
  ### Thank you
