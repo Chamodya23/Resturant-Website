@@ -1,0 +1,168 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Restuarant Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+
+
+<section class="sub2-header">
+    <nav>
+        <a href="index.html"><img src="images/pic1.jpeg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="events.html">EVENTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>EVENTS</h1>
+</section>
+
+<!--------------------------------------EVENTS--------------------------------------------->
+<section class="course">
+    <div class="row">
+        <div class="course-col">
+            <h3>CATERING MENU</h3>
+            <p>We take pride in helping you throw events that your guests and family will love. 
+                We provide a range of options: from roof deck barbecues, to office lunches and celebrations, birthday parties, and anything in between. 
+                Our team will plan everything you need with orders packed hot and fresh for delivery or pick-up. Our goal is to leave you wanting to 
+                plan your next order with us</p>
+        </div>
+        <div class="course-col">
+            <h3>PRIVATE EVENTS</h3>
+            <p>Our location offers a fun alternative to formal dining rooms and standard venues. Indoors or outdoors, 
+                we offer family-style meals, buffets with interactive stations, and cocktail receptions. Any style event is available 
+                from corporate team-building events, weddings, and rehearsal dinners. We take pride in creating unique and unforgettable
+                memories for our guests at every turn</p>
+        </div>
+        <div class="course-col">
+            <h3>BY THE POUND</h3>
+            <p>
+                We offer Sweet Cheeks Q by the pound! Meats are priced by the pound. Serving size is appropriate for two to three people. 
+                Half-pounds are also available for smaller appetites.
+            </p>
+        </div>
+
+</section>
+
+<!--------  Blog page content  -------->
+<section class="blog content">
+<div class="row">
+    <div class="blog-left">
+        <img src="images/eve.jpeg">
+        <h2>NO EVENT IS TOO LARGE, TOO SMALL, OR TOO CHEEKY….</h2>
+        <p>
+            Here at Sweet Cheeks Q, we take pride in helping you throw events that your guests and family<br>
+             will love. We provide a range of options: from roof deck barbecues, to office lunches and celebrations, <br>
+             birthday parties, and anything in between. Our team will plan everything you need with orders packed<br>
+              hot and fresh for delivery or pick-up. Our goal is to leave you wanting to plan your next order with us!
+<br>
+<br>
+<br>
+            We do it all: In-house group dining on our patio, covered beer garden, & dining room. <br>
+            Off-site catering drop-offs and pick-ups are also available. Let us know how we can help you make your <br>
+            next event a memorable one.
+        <br>
+
+           
+        
+            <div class="comment-box">
+                <h3>Your Contact Information</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Company Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+            <div class="comment-box1">
+                <h3>Your Event Details</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Nature of this Event(e.g., Catering Order or Restaurant Event)">
+                    <input type="text" placeholder="Event Date">
+                    <input type="email" placeholder="Number of People">
+                    <textarea rows="5" placeholder="What restaurant are you inquiring about? (Sweet Cheeks Q, Fool's Errand, Tenderoni's Pizza, Dive Bar, or Bubble Bath)"></textarea>
+                    <button type="submit" class="hero-btn red-btn">SUBMIT</button>
+                </form>
+            </div>
+
+    </div>
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+<!------Footer------>
+<section class="footer">
+<h4>About Us</h4>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Aperiam deserunt numquam in totam facilis laboriosam,
+     natus obcaecati similique<br>
+    soluta harum molestias aliquam odit p
+    ariatur officia voluptates quod et est tempora!
+</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instragram"></i>
+    <i class="fa fa-linkdin"></i>
+</div>
+<p>
+    Made with  <i class="fa fa-heart-o"></i> Easy Tutorials
+</p>
+
+
+
+</section>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!------JavaScript forToggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+    </body>
+</html>
